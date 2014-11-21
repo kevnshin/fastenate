@@ -1,4 +1,4 @@
-/*/**
+`/*/**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
@@ -60,6 +60,8 @@ li {
   clear: both;
 }
 
+/*Styles*/
+
 header {
 
   background-image: url('/images/header_bg.svg');
@@ -79,7 +81,7 @@ header > img {
 
 }
 
-header > #plus {
+header > p#plus {
 
   display: inline-block;
   margin: 0px;
@@ -90,18 +92,18 @@ header > #plus {
   padding: 0px 6px;
   width: 20px;
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 16px;
+  right: 16px;
 
 }
 
 nav {
   text-align: center;
   background-color: #3A3A3C;
-  padding: 9px 0px;
+  padding: 5px 0px;
 }  
     
-nav li {
+nav > ul > li {
 
   display: inline-block;
   color: #78797C;
@@ -120,7 +122,7 @@ nav li {
 
 }
 
-.content_box {
+#main_content > .content_box {
 
   background-color: #fff;
   display: block;
