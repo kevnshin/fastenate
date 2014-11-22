@@ -354,9 +354,15 @@ footer > img.social_media {
   #main_content > div.content_box:hover {
 
     border: 4px solid #FD991C;
+
+  }
+
+  #main_content > div.content_box:hover > div.content_text > h3.title {
+
     color: #B71100;
 
   }
+
 
   footer > img#fb_icon:hover {
   
