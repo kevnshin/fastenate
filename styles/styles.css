@@ -61,9 +61,12 @@ table {
 p {
 
   font-family: 'Lato', sans-serif;
+
+}
+
+li {
+
   display: inline-block;
-  font-size: 14px;
-  color: #818285;
 
 }
 
@@ -118,7 +121,6 @@ nav {
     
 nav > ul > li {
 
-  display: inline-block;
   color: #78797C;
   font-family: 'Oswald', sans-serif;
   margin: 0px 2px;
@@ -126,13 +128,11 @@ nav > ul > li {
 
 }
 
-
 #main_content {
 
   background-image: url('/images/bg.jpg');
   background-size: cover;
-
-  padding: 40px 0px;
+  padding: 30px 0px;
 
 }
 
@@ -155,13 +155,12 @@ nav > ul > li {
 
 }
 
+
 #main_content > div.content_box > div.content_text {
 
   display: inline-block;
   width: 68%;
-/*  background-color: red;
-  border: 1px solid blue;*/
-  margin: 13px 2% 13px 0px;
+  margin: 13px 3% 13px 0px;
   float: right;
   box-sizing: border-box;
 
@@ -174,12 +173,33 @@ nav > ul > li {
 
 }
 
+#main_content > div.content_box li {
 
-#main_content > div.content_box > div.content_text > p.summary {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #818285;
 
-  display: block;
-  margin-top: 20px;
+}
+
+#main_content > div.content_box > div.content_text > p.description {
+
+  margin-top: 14px;
   color: #3A3A3C;
+  font-size: 15px;
+
+}
+
+footer {
+  
+  background-color: #3A3A3C;
+  text-align: center;
+  padding: 13px 0px;
+
+}
+
+footer > img.social_media {
+  
+  margin: 0px 5px;
 
 }
 
